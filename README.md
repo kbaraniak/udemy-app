@@ -30,7 +30,7 @@ npm install
 npm run start
 ```
 
-## Run tests
+## Build for your OS / Run tests
 
 ```sh
 npm run make
