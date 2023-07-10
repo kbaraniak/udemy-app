@@ -1,0 +1,138 @@
+{
+  "name": "udemy-app",
+  "version": "1.0.2",
+  "description": "Unofficial Udemy Desktop App",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "platform": "linux",
+        "arch": "armv7l",
+        "executableName": "udemy-app"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app"
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app"
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app"
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app"
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-dmg",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app",
+              "format": "ULFO"
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-flatpak",
+          "config": {
+            "name": "udemy-app",
+            "options": {
+              "maintainer": "kbaraniak",
+              "homepage": "https://github.com/kbaraniak/udemy-app",
+              "categories": [
+                "Utility"
+              ]
+            }
+          }
+        },
+        {
+          "name": "@electron-forge/maker-snap",
+          "config": {
+            "features": {
+              "audio": true,
+              "mpris": "com.example.mpris",
+              "webgl": true
+            },
+            "summary": "Udemy App",
+            "maintainer": "kbaraniak",
+            "homepage": "https://github.com/kbaraniak/udemy-app"
+          }
+        }
+      ],
+      "publishers": []
+    }
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "make": "electron-forge make",
+    "package": "electron-forge package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbaraniak/udemy-app.git"
+  },
+  "keywords": [
+    "udemy",
+    "app",
+    "desktop",
+    "course",
+    "courses",
+    "free",
+    "discount",
+    "pc",
+    "windows",
+    "linux"
+  ],
+  "author": "Klubuntu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbaraniak/udemy-app/issues"
+  },
+  "homepage": "https://github.com/kbaraniak/udemy-app#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "electron": "^25.2.0"
+  },
+  "dependencies": {
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-dmg": "^6.2.1",
+    "@electron-forge/maker-flatpak": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-snap": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "create-readme": "^2.1.3",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

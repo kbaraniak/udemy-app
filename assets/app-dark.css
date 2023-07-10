@@ -1,0 +1,236 @@
+:root {
+   color-scheme: dark;
+ }
+
+ body {
+   background: #0e0e0e;
+   color: #d1d4d9 !important;
+ }
+ .header--header--33tMC {
+   background: #3c3c3c !important;
+   color: white !important;
+ }
+ .header--header--1SLKV {
+   background: #121212 !important;
+ }
+ .header--search-bar--1g81R {
+   border: 1px solid #bdbdbd !important;
+   background-color: #1c1919 !important;
+ }
+ .ud-icon-color-neutral {
+   color: white !important;
+ }
+ img[alt="Udemy"]{
+   filter: contrast(0.0);
+ }
+ .ud-btn-secondary, .ud-btn-secondary.ud-btn-disabled{
+   color: var(--color-gray-100) !important;
+   border: 1px solid #cfd2d9 !important;
+ }
+ .popover-module--popover--1kskS{
+   color: white !important;
+   background: #333333 !important;
+ }
+ .user-profile-dropdown--user-details--34Js7{
+   color: white !important;
+ }
+ .panel-menu--no-items--2oxzC {
+   color: #edeeef !important;
+ }
+ body.my-courses .my-courses__app .ud-tab-content {
+   background: #0e0e0e !important;
+   color: #f3f3f3 !important;
+ }
+ .course-card-module--main-content--3Uvsz{
+   color: #f7f7f7 !important;
+ }
+ .course-card-module--container--2MTsr h3[data-purpose=course-title-url] a {
+   color: #e1e4eb !important;
+ }
+ .item-card-module--item-card-title--S729p {
+   color: #cec0fc !important;
+ }
+ .dropdown-module--dropdown-menu--3HbSn {
+   background-color: #282727 !important;
+ }
+ .shopping-item--buyable-instructors--3zMHl {
+   color: #e1e3e5 !important;
+ }
+ .price-text--container--103D9 {
+   color: whitesmoke !important;
+ }
+ .panel-menu--footer--sY39u {
+   background: #3e3e3e !important;
+ }
+ .panel-menu--cta--3UCGi{
+   border: 2px solid white !important;
+ }
+ .ud-search-form-autocomplete .ud-search-form-autocomplete-input{
+   border: 0 !important;
+ }
+ .user-profile-dropdown--email--8WRg8{
+   color: #a2a5a7 !important;
+ }
+ .language-selector-menu-item--current-language--2E6_N {
+   color: #e9e9e9 !important;
+ }
+ .alert-banner-module--alert-banner-information--mrXyw{
+   background: #1c1d1f !important;
+ }
+ .ud-modal{
+   background: #3e4143 !important;
+   color: #fefefe !important;
+ }
+ .ud-text-input{
+   border: 1px solid #c3c6cb !important;
+   color: white !important;
+ }
+ .autosuggest-module--menu--1fSkb{
+   background: var(--color-gray-400) !important;
+ }
+ .autosuggest-module--menu--1fSkb ul li button{
+   color: white !important;
+ }
+
+ .mobile-nav--nav--wc2vX .mobile-nav--highlighted--2akh3 {
+   background: #2c2c2c !important;
+ }
+ .ud-block-list .ud-block-list-item-neutral{
+   color: white !important;
+ }
+ .side-drawer-module--drawer-content--3fIhx{
+   background: #333333 !important;
+ }
+ .ud-block-list .ud-block-list-item-link{
+   color: #8f6ae9 !important;
+ }
+ a{
+   color: #8f6ae9 !important;
+ }
+
+ /* Home Page */
+ .link-bar--link-bar--NoEGM {
+   background: #242424 !important;
+   box-shadown: none !important;
+ }
+ .single-course-unit--container--2D57g:hover, .single-course-unit--container--2D57g:active {
+   background-color: #3a3a3a !important;
+ }
+ .ud-heading-lg {
+   color: whitesmoke !important;
+ }
+ .accordion-panel-module--panel-toggler--1RjML,
+ .ud-btn-link, .ud-btn-link-underline {
+   color: #ededed !important;
+ }
+ .sidebar-container--content--2KZyB {
+   background-color: #232323 !important;
+ }
+ .ud-link-neutral {
+   color: white !important;
+ }
+ .paid-course-landing-page__container:not(.free-clp-page) .buy-box--buy-box--1j_Sf .buy-box--buy-box-item--2RETv.buy-box--add-to-cart-button-wrapper--1C64H+.buy-box--buy-box-item--2RETv.buy-box--buy-button--35r28 .ud-btn {
+   color: var(--color-gray-100) !important;
+   border: 1px solid #fefefe !important;
+ }
+ .section--panel--1zoAn .ud-accordion-panel-toggler {
+   background-color: #323232 !important;
+ }
+ .accordion-panel-module--panel-toggler--1RjML {
+   color: white !important;
+ }
+ .ud-btn-link, .ud-btn-link-underline {
+   color: #cec0fc !important;
+ }
+ /* Course Page */
+ .accordion-panel-module--panel-toggler--1RjML{
+   color: unset !important;
+ }
+ .section--section--BukKG .ud-accordion-panel-toggler{
+   background: #242424 !important;
+ }
+ .sidebar--sidebar-header--3RQk_{
+   background-color: #444 !important;
+ }
+ .curriculum-item-link--curriculum-item--KX9MD>.item-link:hover, .curriculum-item-link--curriculum-item--KX9MD.curriculum-item-link--is-current--31BPo>.item-link {
+   background: #9b9b9b !important;
+ }
+ .curriculum-item-link--curriculum-item--KX9MD>.item-link:hover .curriculum-item-link--metadata--e17HG>button, .curriculum-item-link--curriculum-item--KX9MD.curriculum-item-link--is-current--31BPo>.item-link .curriculum-item-link--metadata--e17HG>button {
+   color: white !important;
+ }
+ .curriculum-item-link--curriculum-item--KX9MD>.item-link:hover .curriculum-item-link--metadata--e17HG, .curriculum-item-link--curriculum-item--KX9MD.curriculum-item-link--is-current--31BPo>.item-link .curriculum-item-link--metadata--e17HG {
+   color: white !important;
+ }
+ .ud-text-sm, .ud-text-xs {
+   color: white !important;
+ }
+ .ud-heading-md{
+   color: #ededed !important;
+ }
+ .tabs-module--nav-button-container--u4wUp .tabs-module--nav-button--3RilJ.tabs-module--active--2l5hb {
+   color: #f9f9f9 !important;
+ }
+ .tabs-module--nav-button-container--u4wUp .tabs-module--nav-button--3RilJ:hover {
+   color: #dbceb5 !important;
+ }
+ .tabs-module--nav-button-container--u4wUp.tabs-module--active--2l5hb {
+   border-bottom: 0.2rem solid lightgray !important;
+ }
+ .item-link--common--RP3fp {
+   cursor: pointer;
+   background: #333333;
+ }
+ .ud-accordion-panel-title span{
+   color: white !important;
+ }
+ .show-more-module--content--cjTh0 {
+   color: whitesmoke !important;
+ }
+ .instructor-profile--social-links-row--14uvr .instructor-profile--social-profile-btn--fs2ve {
+   background: none !important;
+ }
+ /* Q&A */
+ .ud-select{
+   background: #333333 !important;
+   border: 1px solid #fff !important;
+   color: whitesmoke !important;
+ }
+ .ud-select:hover {
+   background-color: rgba(0,0,0,0.9) !important;
+ }
+ .question-list-question--question-wrapper--3qHzn:hover {
+   background-color: #191a1a !important;
+ }
+ /* Notes & Announcents & Reviews & For Learning Tools*/
+ .tabs-module--tab-content--30h0i {
+   color: white !important;
+ }
+ .rt-editor {
+   background: #141313 !important;
+ }
+ .rt-menu-bar-container {
+   background: #0e0e0e !important;
+   border: 1px solid #323232 !important;
+ }
+ /* Reviews */
+ .review-feedback--review-report-abuse--UuO3r {
+   color: #a39595 !important;
+ }
+ /* Learning Tools */
+ .learning-tools--reminder-container--4nRXS.learning-tools--scheduled--yPl6N {
+   background: #191a1a !important;
+ }
+ /* Select */
+ .ud-select option {
+   background: var(--color-black) !important;
+ }
+ /* Mobile UI */
+ .tabs-module--tabs-container--f-q9T .tabs-module--pagination-buttons--3X3GB+.tabs-module--pagination-buttons--3X3GB {
+   background: rebeccapurple !important;
+ }
+ @media (min-width: 37.56em){
+ .slider-menu--cta-button--17y69 .ud-btn {
+     color: #1c1d1f !important;
+     background-color: rebeccapurple !important;
+ }
+}
